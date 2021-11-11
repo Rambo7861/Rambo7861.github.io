@@ -1,0 +1,165 @@
+@import url ('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+* {
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 4px;
+	background-color: #00000A;
+
+}
+
+ .container {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  min-height: 15vh;
+}
+
+.container2 {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: left;
+  min-height: 15vh;
+}
+.btn-1 {
+  width:  100px;
+  height: 50px;
+  border: none;
+  color: white;
+  background-color: rgb(0, 100, 130);
+  border-radius:  4px;
+  box-shadow: inset 0 0 0 0 #f9e506;
+  transition: ease-out 0.3s;
+  font-size: 1rem;
+  outline: none;
+}
+
+.btn-1:hover {
+  box-shadow: inset 100px 0 0 0 0 #f9e506;
+  cursor: pointer;
+  color: #000;
+
+}
+
+.btn-2 {
+  width:  100px;
+  height: 50px;
+  border: none;
+  color: white;
+  background-color: rgb(0, 100, 130);
+  border-radius:  4px;
+  box-shadow: inset 0 0 0 0 #f9e506;
+  transition: ease-out 0.3s;
+  font-size: 1rem;
+  outline: none;
+}
+
+.btn-2:hover {
+  box-shadow: inset 50px 0 0 0 0 #f9e506;
+  cursor: pointer;
+  color: #000;
+
+}
+
+.header {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color:#101010;
+  padding: 0px;
+  text-align: left;
+  color: black;
+  font-size: 50px;
+  padding: 10px;
+  text-align: center;
+  background: yellow;
+  color: white;
+  font-size: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 3px;
+  background-color: yellow;
+  color: black;
+}
+
+
+.body {
+float: left top;
+  object-position: left top;
+  height: auto;
+  width: 1000px;
+  position: absolute;
+  margin-top: 44%;
+  margin-left: 80%;
+
+}
+
+.texta {
+float: left top;
+  object-position: left top;
+  height: auto;
+  width: 1500px;
+  color: white;
+  background-color: black;
+  margin-top: 5%;
+  margin-left: 10%;
+
+}
+
+
+.img1 {
+  float: left top;
+  object-position: left top;
+  height: auto;
+  width: 100px;
+  position: absolute;
+  margin-top: 0%;
+  margin-left: 80%;
+}
+.img2 {
+  object-position: right top;
+  height: auto;
+  width: 100px;
+  position: absolute; 
+  margin-top: 0%;
+  margin-right: 80%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.brand {
+  margin-right: 300px;
+  display: block;
+    float: left;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 40px;
+  font-family:"Brush Script MT" ;
+}
+
+.example1 {
+  background-image: url("https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_gw/aventador/2021/09_21_restyle/gw_aven_06.jpg"), url(paper.gif);
+  background-position:  left top, left top;
+  padding: 410px;
+}
+
+
+.example2 {
+  background-image: url("https://3.bp.blogspot.com/-Dt6EcPYsQBM/USsGuS6lf4I/AAAAAAAAABI/08b2JQggt4U/s1600/LamborghiniAventadorJ.jpg"), url(paper.gif);
+ position: relative;
+ text-align: center;
+ color: black;
+  padding: 410px;
+}
